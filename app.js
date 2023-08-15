@@ -32,7 +32,8 @@ priceInput.addEventListener('blur', calcularPrecioTotal);
 function calcularPrecioTotal() {
     const kilogramos = Number(kgInput.value) || 0;
     const precioPorKilo = Number(priceInput.value) || 0;
-    const total = kilogramos * precioPorKilo;
+    let total = kilogramos * precioPorKilo;
+    total = total.toLocaleString().split(".").join(",");
 
     totalPriceOutput.textContent = `\u20A1 ${total}`;
 }
