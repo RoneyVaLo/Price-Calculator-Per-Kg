@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos generales */
+.App {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para el encabezado */
+.title-container {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.title-container h1 {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para las secciones */
+.kilograms,
+.priceKg,
+.total_price {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 96%;
+    max-width: 28em;
+    text-align: center;
+}
+
+.kilograms h2,
+.priceKg h2,
+.total_price h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para los campos de entrada */
+input[type="number"] {
+    padding: 8px;
+    width: 100px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para el símbolo de moneda */
+span {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+/* Estilos para el precio total */
+.total_price span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Estilos para los botones */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
