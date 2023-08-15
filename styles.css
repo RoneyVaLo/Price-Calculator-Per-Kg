@@ -56,6 +56,8 @@ input[type="number"] {
     width: 100px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
 /* Estilos para el símbolo de moneda */
@@ -78,7 +80,7 @@ button {
     border: none;
     border-radius: 5px;
     padding: 8px 12px;
-    font-size: 16px;
+    font-size: 1.2em;
     font-weight: bold;
     cursor: pointer;
     margin-left: 10px;
